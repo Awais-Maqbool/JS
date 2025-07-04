@@ -1,16 +1,20 @@
 let name = "awais";
-let anothername = name;
+
+let othername = name;
+
+othername = "bilal";
+
 console.log(name);
 
-anothername="bilal";
-console.log(anothername);
+console.log(othername);
 
-let userone =  {
-    name:"awais",
+let userone = {
+    name : "awais",
 }
-let usertwo = userone;
 
+let usertwo = userone;
 usertwo.name = "bilal";
 
-console.log(userone);
-console.log(userone);
+console.log(userone.name)
+console.log(usertwo.name)
+
