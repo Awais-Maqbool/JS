@@ -1,24 +1,19 @@
-let z = "awais";
-let y = "bilal";
-
-
-console.log(z[0])
-
-const game = new String("pubg");
-console.log(game.__proto__);
-console.log(game.length);
-console.log(game.toUpperCase());
-console.log(game.toLowerCase());
-console.log(game.concat(y));
-console.log(game.charAt(1));
-console.log(game.split(2,2));
-console.log(game.replace("p","f"))
-console.log(game.substring(2))
-console.log(game.indexOf('u'))
-
-console.log(game)
-
-let string = "  awais  ";
-console.log(string.trimEnd())
-
-console.log(game.includes("aw"));
+let s = new String("  awais  ");
+console.log(s.length);
+console.log(s.toLowerCase());
+console.log(s.toUpperCase());
+console.log(s.trim());
+console.log(s.trimStart());
+console.log(s.trimEnd());
+console.log(s.replace("aw","wp"));
+console.log(s.replaceAll("a","p"));
+console.log(s.substring(1,5));
+console.log(s.charAt(4));
+console.log(s.indexOf("a"));
+console.log(s.includes("aw"));
+console.log(s.charCodeAt(0));
+console.log(String.fromCharCode(110,97));
+console.log(s.repeat(4));
+console.log(s.matchAll("a"));
+console.log(s.padEnd(20,"*"));
+console.log(s.search("w"));
