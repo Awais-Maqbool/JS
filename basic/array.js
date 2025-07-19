@@ -29,3 +29,29 @@ console.log(z);
 const v = z.splice(1,3);
 console.log(v);
 console.log(z);
+
+
+// let marve = ["ironman","spiderman","thor","captain"];
+// let dc = ["superman","flash",'batman'];
+// marve.push(dc);
+// console.log(marve)
+// console.log(marve[4][1])
+// let heroes = marve.concat(dc);
+// console.log(heroes)
+
+// let heroes = [...marve,...dc]
+// console.log(heroes)
+
+
+// let arr = [1,2,3,[4,5,6],7,8,[9,[10,11]]];
+// let arr2 = arr.flat(Infinity);
+// console.log(arr2)
+
+// console.log(Array.isArray('awais'));
+// console.log(Array.from('awais'));
+
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+
+// console.log(Array.of(score1,score2,score3))
