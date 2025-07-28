@@ -15,3 +15,26 @@
 //     }
 //     console.log(i)
 // }
+
+// let x = 0;
+// do{
+//     console.log(x);
+//     x=x+3;
+// }while(x<=5)
+
+let arr = new Array("batman","superman","thor","ironman");
+// for(let i=0;i<arr.length;i++){
+//     console.log(arr[i])
+// }
+
+// let i=0;
+// while(i<arr.length){
+//     console.log(`value of index is ${arr[i]}`)
+//     i++
+// }
+
+let i = 0;
+do{
+    console.log(arr[i])
+    i++;
+}while(i<arr.length)
